@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insta Profile Clone</title>
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            background-color:rgb(205, 193, 193);
+        }
+        #container{
+            height: 680px;
+            width: 400px;
+            background-color: black;
+            margin:28px auto;
+            border-radius: 30px;
+            border: 4px solid blueviolet;
+        }
+        #head{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            /* background-color: blueviolet; */
+            height: 80px;
+            width:100%;
+            font-size: 22px;
+            color: white;
+        }
+        #box{
+            display: flex;
+        }
+        #logo{
+            /* background-color: aqua; */
+            height: 180px;
+            width: 150px;
+        }
+        #profile{
+            margin-left: 20px;
+            margin-top: 20px;
+            border-radius: 110%;
+            height: 70%;
+            width: 90%;
+        }
+        #info{
+            /* background-color:gray; */
+            color: white;
+            height: 200px;
+            width: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        h5{
+            margin-top: -5px;
+        }
+        #bio{
+        height: 120px;
+        width: auto;
+        /* background-color: brown; */
+        margin-top: -15px;
+        }
+        p{
+            color: white;
+            font-size: 16px;
+            margin-top: -5px;
+            margin-left: 15px;
+            font-family:cursive;
+        }
+        #plus{
+            margin-top: -26px;
+            margin-left: 110px;
+            border-radius: 100%;
+        }
+        .footer{
+            height: 100px;
+            width: 100%;
+            /* background-color:burlywood; */
+            margin-top:10px ;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .ico{
+            height: 40px;
+            width: 110px;
+            background-color: grey;
+             margin-top: -45px;
+            font-size: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            border-radius: 8%;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .photo{
+            margin-left: 5px;
+            margin-top: -25px;
+            height:170px ;
+            width: 122px;
+            border: 1px solid white;
+        }
+    
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <div id="head">
+            <h3>shreya_gaikwad19</h3>
+           <i class="fa-solid fa-at"></i>
+            <i class="fa-regular fa-square-plus"></i>
+             <i class="fa-solid fa-bars"></i>
+             </div>
+        </div>
+        <div id="box">
+            <div id="logo">
+                <img id="profile" src="../Assets/shreya5.jpg" alt="">
+                <img id="plus" style="height: 30px;width: 30px;" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/plus-square-3015013-2503722.png" alt="">
+            </div>
+            <div id="info">
+                <div class="post">
+                <h3>&nbsp; 72</h3>
+                <h5>Posts</h5>
+                 </div>
+                 <div class="followers">
+                <h3>&nbsp; 519</h3>
+                <h5>Followers</h5>
+                </div>
+                <div class="following">
+                    <h3>&nbsp; 316</h3>
+                    <h5>Following</h5>
+                </div>
+            </div>
+        </div>
+        <div id="bio">
+           <p>Dimple_Queen 👑<br>
+            ✨ ...𝗦𝗼ɳυ💕...✨<br>
+            😎🔥SATARKAR🔥🤙<br>
+            ⚔️🚩96K &nbsp; 🅼🅰🆁🅰🆃🅷🅰🚩⚔️<br>
+            🖥 𝐈𝐓 Engineer👩‍💻🖥</p>
+        </div>
+        <div class="footer">
+            <div class="ico"><h4>Edit Profile</h4></div>
+            <div class="ico"><h4>Share Profile</h4></div>
+            <div class="ico"><i class="fa-solid fa-user-plus"></i></div>
+        </div>
+        <div>
+            <img class="photo" src="../Assets/shreya.jpg" alt="">
+            <img class="photo" src="../Assets/shreya1.jpg" alt="">
+            <img class="photo" src="../Assets/shreya4.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>

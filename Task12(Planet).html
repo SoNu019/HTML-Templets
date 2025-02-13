@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            background-color: rgb(13, 13, 38);
+        }
+        h2{
+            font-size:20px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #nav{
+            display:flex;
+            justify-content: space-evenly;
+            height: 50px;
+        }
+        #navleft{
+            width: 40%;
+            /* background-color: blueviolet; */
+            color: white;
+        }
+        #navright{
+            width: 60%;
+            /* background-color: aqua; */
+            display: flex;
+            align-items: center;
+            justify-content:space-evenly;
+        }
+        a{
+            font-size: 15px;
+            text-decoration: none;
+            color:white;
+        }
+        #content{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        #earthimg{
+            width: 75%;
+        }
+        #rightInfo{
+            width: 25%;
+        }
+        img{
+            margin-top: 20%;
+           height: 400px;
+           width: 400px;
+           border-radius: 100%;
+        }
+        .box{
+            margin-top: 30px;
+            padding: 10px;
+            height: 45px;
+            width: 300px;
+            border: 2px solid blue;
+            color: white;
+            padding-left: 20px;
+            letter-spacing: 4px;
+        }
+        p{
+            font-size: 15px;
+            color: white;
+            line-height: 20px;
+        }
+        h1{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: white;
+        }
+        #footer{
+            margin-top: 80px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #rotation{
+            border: 1px solid rgb(70, 70, 70);
+            height: 130px;
+            width: 250px;
+           padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+    <div id="navleft"><h2>THE &nbsp;PLANETS</h2> </div>
+    <div id="navright">
+        <div><a href="https://en.wikipedia.org/wiki/Mercury_(planet)">MARCURY</a></div>
+        <div><a href="https://en.wikipedia.org/wiki/Venus">VENUS</a></div>
+        <div><a href="https://en.wikipedia.org/wiki/Earth">EARTH</a></div>
+        <div><a href="https://en.wikipedia.org/wiki/Jupiter">JUPITER</a></div>
+        <div><a href="https://en.wikipedia.org/wiki/Saturn">SATURN</a></div>
+        <div><a href="https://en.wikipedia.org/wiki/Uranus">URANUS</a></div>
+        <DIV><a href="https://en.wikipedia.org/wiki/Neptune">NEPTUNE</a></DIV>
+    </div>
+    </div>
+    <hr >
+    <div id="content">
+        <div id="earthImg">
+            <img src="../Assets/earth.png" alt="">
+        </div>
+        <div id="rightInfo">
+            <h1>EARTH</h1>
+            <p>Third planet from the Sun and the only known planet to harbor life. About 29.2% of Earth's surface is land with remaining 70.8% is covered with water.
+                Earth's distance from the Sun. Physical properties and geological history have alloed life to evolve and thirve</p>
+            <p style="margin-top: 30px; font-size: 20px; color:rgb(100, 100, 249) ;">Source : <ins style="color: white;">Wikipedia <i class="fa-solid fa-arrow-up-right-from-square"></i></ins></p>
+            <div class="box" style="background-color:rgb(142, 83, 197); border: none;"><p>01 &nbsp;&nbsp;&nbsp;&nbsp;OVERVIEW</p></div>
+            <div class="box"><p>02  &nbsp;&nbsp;&nbsp;&nbsp;INTERNAL STRUCTURE</p></div>
+            <div class="box"><p>03 &nbsp;&nbsp;&nbsp;&nbsp; SURFACE GEOLOGY</p></div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="rotation"> 
+            <p  style="margin-top: 20px; color:rgb(100, 100, 249) ;">ROTATION TIME</p>
+            <h1>0.99 DAYS</h1>
+        </div>
+        <div id="rotation"> 
+            <p style="margin-top: 20px; color:rgb(100, 100, 249) ;">REVOLUTION TIME</p>
+            <h1>365.26 DAYS</h1>
+        </div>
+        <div id="rotation"> 
+            <p style="margin-top: 20px; color:rgb(100, 100, 249) ;">RAADIUS</p>
+            <h1>6,371 KM</h1>
+        </div>
+        <div id="rotation"> 
+            <p style="margin-top: 20px; color:rgb(100, 100, 249) ;">AVERAGE TEMP</p>
+            <h1>16<SUP>o</SUP>C</h1>
+        </div>
+    </div>
+</body>
+</html>

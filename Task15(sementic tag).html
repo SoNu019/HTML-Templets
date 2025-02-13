@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Task</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2SXfNqT24hoqvtUyComgH6mnqwbE2S74dwA&s");
+            /* background-color: rgb(53, 53, 73); */
+        }
+        #container{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        #left{
+            width: 30%;
+            height: 90px;
+            /* background-color:blueviolet; */
+            padding-left: 90px;
+            padding-top: 25px;
+            font-size: 60px;
+            color: white;
+        }
+        #right{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 70%;
+            height: 90px;
+            background-color:rgb(115, 115, 156);
+            color: white;
+        }
+        .navbar{
+            padding: 50px;
+            word-spacing: 10px;
+            font-size: 17px;
+        }
+        #box{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        #info{
+            width: 450px;
+            /* background-color:burlywood; */
+            padding-top: 150px;
+            color:rgb(208, 200, 195);
+        }
+        h2{
+            font-size: 25px;
+            word-spacing: 3px;
+            margin-bottom: 25px;
+        }
+        h1{
+            font-size: 130px;
+            margin-bottom: 25px;
+            letter-spacing: 8px;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        p{
+            font-size: 20px;
+            word-spacing: 3px;
+            line-height:25px;
+            text-align: justify;
+        }
+        #image{
+           margin-top: 120px;
+        }
+        img{
+            border-radius: 100%;
+            border:3px solid rgb(60, 60, 95);
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <nav id="container">
+        <div id="left"><i class="fa-regular fa-star"></i></div>
+        <div id="right">
+            <div class="navbar">00 HOME</div>
+            <div class="navbar">01 DESTINATION</div>
+            <div class="navbar">02 CREW</div>
+            <div class="navbar">03 TECHNOLOGY</div>
+        </div>
+    </nav>
+</header>
+<main id="box">
+    <article id="info">
+    <h2>SO, YOU WANT TO TRAVEL TO</h2>
+    <h1>SPACE</h1>
+    <p>Let's face it; if you want to go to space, you might as well
+        genuinely go to outer sapce and not hover kind of on the edge of it.
+        Well sit back, and relax because we'll give you a truly out of this world experience!
+    </p>
+    </article>
+    <figure id="image">
+        <img src="https://img.freepik.com/free-photo/glowing-spaceship-orbits-planet-starry-galaxy-generated-by-ai_188544-9655.jpg" alt="">
+    </figure>
+</main>
+</body>
+</html>
